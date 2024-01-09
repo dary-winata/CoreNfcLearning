@@ -24,6 +24,7 @@
 		6A1CF1842ABDAE6200AF26DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A1CF1872ABDAE6200AF26DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A1CF1892ABDAE6200AF26DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A6C5DF82AC07F2600FBAD3E /* LearningCoreNFC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LearningCoreNFC.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		6A1CF17A2ABDAE6000AF26DE /* LearningCoreNFC */ = {
 			isa = PBXGroup;
 			children = (
+				6A6C5DF82AC07F2600FBAD3E /* LearningCoreNFC.entitlements */,
 				6A1CF17B2ABDAE6000AF26DE /* AppDelegate.swift */,
 				6A1CF17D2ABDAE6000AF26DE /* SceneDelegate.swift */,
 				6A1CF17F2ABDAE6000AF26DE /* ViewController.swift */,
@@ -285,11 +287,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LearningCoreNFC/LearningCoreNFC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9CPQ5HZ2TL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LearningCoreNFC/Info.plist;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Using nfc for reading the item to inside game";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -313,11 +317,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LearningCoreNFC/LearningCoreNFC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9CPQ5HZ2TL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LearningCoreNFC/Info.plist;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Using nfc for reading the item to inside game";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
